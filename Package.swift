@@ -1,6 +1,9 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
-  name: "PopOverDatePicker"
+  name: "PopOverDatePicker",
+  products: [
+        .library(name: "PopOverDatePicker", targets: ["PopOverDatePicker"])
+  ]
 )
