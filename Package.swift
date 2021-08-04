@@ -5,5 +5,11 @@ let package = Package(
   name: "PopOverDatePicker",
   products: [
         .library(name: "PopOverDatePicker", targets: ["PopOverDatePicker"])
-  ]
+  ],
+  targets: [
+        .target(
+            name: "PopOverDatePicker",
+            path: "Sources"
+        )
+    ]
 )
